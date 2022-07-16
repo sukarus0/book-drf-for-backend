@@ -1,6 +1,6 @@
 #!/bin/bash
 
-required_pkg='djangorestframework'
+required_pkg='djangorestframework Pillow django-cors-headers'
 pkg_list=($required_pkg)
 
 for package in ${pkg_list[@]};
